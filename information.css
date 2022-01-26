@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+*/
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.nav__row{
+    margin-bottom: 30px;
+}
+.logo a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 70px;
+    color: #000;
+}
+
+.title-img {
+    width: 1020px;
+    height: 380px;
+    background-image: url("img/someImages.png")  ;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+}
+
+.container__small{
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.content__header{
+    border-bottom: 1px solid #E8E7E7;
+    margin-bottom: 38px;
+}
+.header__subtitle{
+    padding-bottom: 30px;
+}
+
+.content__header h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 19px;
+  }
+.content__header span{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.content__header span:last-child{
+    color:#718096;
+    margin-left: 30px;
+}
+
+.text__descr p{
+    font-size: 16px;
+    line-height: 19px;
+    color:#718096;
+
+}
+.subtitle__small{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 20px 0;
+
+}
+.subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 20px 0;
+}
